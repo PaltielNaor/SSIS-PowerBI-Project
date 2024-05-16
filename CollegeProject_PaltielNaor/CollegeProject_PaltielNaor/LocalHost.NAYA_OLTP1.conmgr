@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.NAYA_OLTP1"
+  DTS:DTSID="{1205B10D-768B-46F4-8F61-D25E3D662DBA}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=.;Initial Catalog=NAYA_OLTP;Integrated Security=True;Application Name=SSIS-Dim Students-{1205B10D-768B-46F4-8F61-D25E3D662DBA}LocalHost.NAYA_OLTP1;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

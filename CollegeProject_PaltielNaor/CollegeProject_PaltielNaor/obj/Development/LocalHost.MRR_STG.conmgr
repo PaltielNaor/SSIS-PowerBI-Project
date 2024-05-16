@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.MRR_STG"
+  DTS:DTSID="{ADB60430-A38A-499C-A74A-EFEB001B36B0}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=MRR_STG;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-CollegeProject_PaltielNaor-{ADB60430-A38A-499C-A74A-EFEB001B36B0}LocalHost.MRR_STG;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

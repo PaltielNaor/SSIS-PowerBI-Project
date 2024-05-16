@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.College_DWH"
+  DTS:DTSID="{293C3CC4-D2D9-4C3A-8FEF-E706D1EEA4C1}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=College_DWH;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-CollegeProject_PaltielNaor-{293C3CC4-D2D9-4C3A-8FEF-E706D1EEA4C1}LocalHost.College_DWH;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

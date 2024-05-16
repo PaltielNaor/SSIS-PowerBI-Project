@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.NAYA_OLTP"
+  DTS:DTSID="{25942BDF-5882-4B3C-9094-CEF5FC9738DF}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=NAYA_OLTP;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-CollegeProject_PaltielNaor-{25942BDF-5882-4B3C-9094-CEF5FC9738DF}LocalHost.NAYA_OLTP;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
